@@ -56,7 +56,7 @@ const Hero = () => {
           <h1 className="text-4xl md:text-6xl font-bold uppercase tracking-wider mb-4 min-h-[80px] md:min-h-[100px]">
             <TypeAnimation
               sequence={[
-                'IETE STUDENT FORUM - GVPCE(A)',
+                'IETE STUDENT FORUM - GVPCE',
                 3000,
                 () => {
                   // This callback will hide the cursor after typing completes
