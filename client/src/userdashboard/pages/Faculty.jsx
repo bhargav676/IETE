@@ -20,6 +20,7 @@ const facultyData = {
             name: 'Dr. N. Bala Subrahmanyam',
             qualifications: 'B.E, M.E., Ph.D, MISTE, MIETE',
             position: 'Professor',
+            role: 'Advisor',   // ✅ New field
             imageUrl: subrahmanyam,
             email: 'drnbsubrahmanyam@gvpce.ac.in',
         },
@@ -27,6 +28,7 @@ const facultyData = {
             name: 'Ms. B. Keerthi Priya',
             qualifications: 'M.Tech',
             position: 'Assistant Professor',
+            role: 'Coordinator',   // ✅ New field
             imageUrl: priya,
             email: 'keerthi.priya@example.com',
         },
@@ -69,6 +71,14 @@ const FacultyProfileCard = ({ member }) => {
                         <p className="text-blue-600 font-medium mb-1 text-sm">
                             {member.position}
                         </p>
+
+                        {/* ✅ Show role if available */}
+                        {member.role && (
+                            <p className="text-green-600 font-semibold mb-1 text-sm">
+                                {member.role}
+                            </p>
+                        )}
+
                         <p className="text-gray-600 mb-2 text-sm">
                             {member.qualifications}
                         </p>
@@ -96,8 +106,8 @@ const Faculty = () => {
             {/* Page Header */}
             <div className="max-w-4xl mx-auto text-center mb-16">
                 <h1 className="text-4xl sm:text-5xl md:text-[3.25rem] font-extrabold text-[#2c3286] tracking-tight font-[Poppins]">
-  Our Faculty
-</h1>
+                    Our Faculty
+                </h1>
 
                 <p className="mt-4 text-lg sm:text-xl text-gray-600">
                     The guiding minds behind our department's success.

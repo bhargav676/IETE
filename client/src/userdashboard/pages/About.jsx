@@ -156,7 +156,7 @@ With its strong national presence, IETE empowers students to become leaders in t
                         <AnimatedStatCard icon={<FiUsers className="w-10 h-10 text-cyan-300 mx-auto" />} number={100} label="Active Members" />
                         <AnimatedStatCard icon={<FiAward className="w-10 h-10 text-cyan-300 mx-auto" />} number={80} label="Events Organized" />
                         <AnimatedStatCard icon={<FiCpu className="w-10 h-10 text-cyan-300 mx-auto" />} number={15} label="Workshops Conducted" />
-                        <AnimatedStatCard icon={<FiBarChart2 className="w-10 h-10 text-cyan-300 mx-auto" />} number={2000} label="Alumini Connections" />
+                        <AnimatedStatCard icon={<FiBarChart2 className="w-10 h-10 text-cyan-300 mx-auto" />} number={200} label="Alumini Connections" />
                     </div>
                 </div>
             </section>
