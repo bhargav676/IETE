@@ -1,6 +1,6 @@
 import React from 'react';
 import { TypeAnimation } from 'react-type-animation';
-import heroImage from '../../assets/images/h.jpg';
+import heroImage from '../../assets/images/h.webp';
 import { useNavigate } from "react-router-dom";
 
 const componentStyles = `

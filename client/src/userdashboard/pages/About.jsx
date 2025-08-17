@@ -188,8 +188,6 @@ With its strong national presence, IETE empowers students to become leaders in t
                     </div>
                 </div>
             </section>
-
-            {/* --- MODIFIED Call to Action Section --- */}
             <section className="relative bg-slate-900 py-20 overflow-hidden">
                 <div className="absolute inset-0 w-full h-full hero-grid-background opacity-40"></div>
                 <div className="relative container mx-auto px-6 text-center">

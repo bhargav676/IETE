@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'; // useEffect is still needed
 import { HiOutlineMenu, HiOutlineX } from "react-icons/hi"; 
 
-import banner from '../../assets/images/banner.png';
+import banner from '../../assets/images/banner.webp';
 import logo from '../../assets/images/logo.jpg';
 
 const Navbar = () => {
