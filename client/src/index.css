@@ -1,0 +1,13 @@
+@import "tailwindcss";
+/* Add this to your global CSS file, like src/index.css */
+
+/* Hides the scrollbar for WebKit browsers (Chrome, Safari) */
+.no-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hides the scrollbar for other browsers (Firefox, IE, Edge) */
+.no-scrollbar {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
