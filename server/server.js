@@ -57,14 +57,14 @@ app.use('/api/our-team-journey', ourTeamJourneyRoutes);
 
 db();
 
-// const PORT = process.env.PORT || 5000;
-// app.listen(PORT, () => {
-//     console.log(`Server running on port ${PORT}`); 
-// });  
+const PORT = process.env.PORT || 5000;
+app.listen(PORT, () => {
+    console.log(`Server running on port ${PORT}`); 
+});  
 
-const serverless = require("serverless-http");
-module.exports = app;
-module.exports.handler = serverless(app);
+// const serverless = require("serverless-http");
+// module.exports = app;
+// module.exports.handler = serverless(app);
 
 
 app.get('/',(req,res)=>{
