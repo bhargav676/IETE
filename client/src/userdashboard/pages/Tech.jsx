@@ -103,7 +103,7 @@ const clubs = [
   },
   {
     image: electrozoomImage,
-    title: "Electrozoom and Personality Development Club",
+    title: "Electrozoom",
     description: "The Electrozoom & PDC Club uniquely combines technical creativity with personal growth. Through Electrozoom, students publish annual magazines showcasing their ideas, creativity, and achievements. The PDC side focuses on soft skills development by conducting personality development sessions, public speaking events, and panel discussions — empowering students to grow in both confidence and leadership.It is a platform where students learn to express, inspire, and lead with excellence.",
     delay: '0.3s',
     url: 'https://sites.google.com/view/electrozoom/',
