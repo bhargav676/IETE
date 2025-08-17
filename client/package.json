@@ -24,7 +24,8 @@
     "react-router-dom": "7.7.0",
     "react-type-animation": "3.2.0",
     "swiper": "11.2.10",
-    "tailwindcss": "4.1.11"
+    "tailwindcss": "4.1.11",
+    "vercel": "46.0.1"
   },
   "devDependencies": {
     "@eslint/js": "^9.30.1",
