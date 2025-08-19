@@ -2,7 +2,7 @@ import React from 'react';
 import { FiMail } from 'react-icons/fi';
 import deepika from '../../assets/images/deepika.png'; // Ensure path is correct
 import priya from '../../assets/images/priya.jpg';     // Ensure path is correct
-import subrahmanyam from '../../assets/images/nbs.jpg';    // Ensure path is correct
+import subrahmanyam from '../../assets/images/nbs.png';    // Ensure path is correct
 import divya from '../../assets/images/divyasree.jpg'; // Ensure path is correct
 import neelima from '../../assets/images/neelima.jpg'
 
@@ -28,7 +28,7 @@ const facultyData = {
             name: 'Ms. B. Keerthi Priya',
             qualifications: 'M.Tech',
             position: 'Assistant Professor',
-            role: 'Coordinator',   // ✅ New field
+            role: 'Faculty Coordinator',   
             imageUrl: priya,
             email: 'keerthi.priya@example.com',
         },
